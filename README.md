@@ -1,2 +1,2 @@
 # FitBit-Discord-Bot
-A Discord bot that displays the user's FitBit activity as its status.
+This bot uses the FitBit API to update the specified user's stats every couple minutes. It uses selenium to automatically login to the account and authorize the user, and then use the token for the following API requests. It updates just frequently enough to not hit the API ratelimit, and most data received is minimized. All API tokens and login info must be set in app.js before launching.
