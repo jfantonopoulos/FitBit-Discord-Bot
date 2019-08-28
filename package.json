@@ -1,0 +1,16 @@
+{
+  "name": "fitbit-bot",
+  "version": "0.0.0",
+  "description": "FitbitBot",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "child-process": "^1.0.2",
+    "discord.js": "^11.4.2",
+    "express": "^4.16.4",
+    "fitbit-node": "^2.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
